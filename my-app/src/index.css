@@ -8,6 +8,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(30 41 59);
 }
 
 code {
@@ -21,4 +22,8 @@ code {
 
 li {
   list-style: none;
+}
+
+button {
+  cursor: pointer;
 }

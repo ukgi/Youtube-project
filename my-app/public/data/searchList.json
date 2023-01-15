@@ -1,0 +1,856 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "Ym9OrRf83yij5h4Dj-sf80IvO_E",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 947649,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tEwXbK1CocO5FBHFGA8NJ3A1jQE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "p_XdZdg9oGc"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-17T11:20:10Z",
+        "channelId": "UCTQVIXvcHrR9jYoJ6qaBAow",
+        "title": "[최초공개] LE SSERAFIM(르세라핌) - ANTIFRAGILE (4K) | LE SSERAFIM COMEBACKSHOW | Mnet 221017 방송",
+        "description": "[LE SSERAFIM COMEBACK SHOW : ANTIFRAGILE] LE SSERAFIM - ANTIFRAGILE [르세라핌 컴백쇼 : ANTIFRAGILE] 르세라핌 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/p_XdZdg9oGc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/p_XdZdg9oGc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/p_XdZdg9oGc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "M2",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-17T11:20:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Tc4m-x7J25zfC-OUfSs5iwTl2cs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WnC8p2UZako"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-28T11:00:05Z",
+        "channelId": "UCs-QBT4qkj_YiQw1ZntDO3g",
+        "title": "[DAYOFF] LE SSERAFIM&#39;s DAY OFF Season2 in JEJU EP.1",
+        "description": "르세라핌 #DAYOFF #EP1 #LE_SSERAFIM #르세라핌 공식 채널 #LE_SSERAFIM #르세라핌 OFFICIAL CHANNEL OFFICIAL ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WnC8p2UZako/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WnC8p2UZako/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WnC8p2UZako/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "LE SSERAFIM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-28T11:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tLeeMniRTejqDnJj95ly-WPEurM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kKZgEl_KKAs"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-04T11:00:02Z",
+        "channelId": "UCs-QBT4qkj_YiQw1ZntDO3g",
+        "title": "[DAYOFF] LE SSERAFIM&#39;s DAY OFF Season2 in JEJU EP.2",
+        "description": "르세라핌 #DAYOFF #EP2 #LE_SSERAFIM #르세라핌 공식 채널 #LE_SSERAFIM #르세라핌 OFFICIAL CHANNEL OFFICIAL ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kKZgEl_KKAs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kKZgEl_KKAs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kKZgEl_KKAs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "LE SSERAFIM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-04T11:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PuGfpjU6a8LFcG_3xURoomCn2_Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gPbQpb7b6Yw"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-11T11:00:03Z",
+        "channelId": "UCs-QBT4qkj_YiQw1ZntDO3g",
+        "title": "[DAYOFF] LE SSERAFIM&#39;s DAY OFF Season2 in JEJU EP.3",
+        "description": "르세라핌 #DAYOFF #EP3 #LE_SSERAFIM #르세라핌 공식 채널 #LE_SSERAFIM #르세라핌 OFFICIAL CHANNEL OFFICIAL ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gPbQpb7b6Yw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gPbQpb7b6Yw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gPbQpb7b6Yw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "LE SSERAFIM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-11T11:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "R3L7FiOn90lC7DYo-X7ii1ucrA4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cdZieeRVMyg"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-07T12:17:33Z",
+        "channelId": "UCesY-UN9tgibpFJ-lw3y_1A",
+        "title": "[제37회 골든디스크] LE SSERAFIM - &#39;The Great Mermaid + FEARLESS + Impurities+No Celestial&#39; ♪｜JTBC 230107 방송",
+        "description": "제37회 골든디스크어워즈 with 틱톡 LE SSERAFIM - 'The Great Mermaid + FEARLESS + Impurities + No Celestial' ♪ #제37회골든 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cdZieeRVMyg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cdZieeRVMyg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cdZieeRVMyg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KPOP JAMM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-07T12:17:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NtW3xow6cAwMWyKxV3YiRhtr7cg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eGnZ7qMp9_U"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-16T13:34:53Z",
+        "channelId": "UCeLPm9yH_a_QH8n6445G-Ow",
+        "title": "르세라핌(Lesserafim) - 빛 (원곡: H.O.T) [2022 KBS 가요대축제] | KBS 221216 방송",
+        "description": "르세라핌(Lesserafim) - 빛 (원곡: H.O.T) #2022 #가요대축제 #Y2K #가수 #케이팝 #시상식 #H.O.T #르세라핌 #2022KBS가요대축제 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eGnZ7qMp9_U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eGnZ7qMp9_U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eGnZ7qMp9_U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS Kpop",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-16T13:34:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "k4IOHr0wW2FzMuZ9GLdXi6mdsMo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BryMcZNyu2Q"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-17T01:31:21Z",
+        "channelId": "UC4scK1OtvoEa95nmjdsPjYg",
+        "title": "[4K] 르세라핌 (LE SSERAFIM) ANTIFRAGILE (안티프래자일) 교차편집 (Stage Mix)",
+        "description": "르세라핌 #LESSERAFIM #ANTIFRAGILE.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BryMcZNyu2Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BryMcZNyu2Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BryMcZNyu2Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SoulYeon솔연",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-17T01:31:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "g_BKfwlXmF1JNVE_FYsKWF5ewNU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qORaYudQ7Zc"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-19T14:00:25Z",
+        "channelId": "UCEIi7zFR_wE23jFncVtd6-A",
+        "title": "[BE ORIGINAL] LE SSERAFIM(르세라핌) &#39;ANTIFRAGILE&#39; (4K)",
+        "description": "[BE ORIGINAL] LE SSERAFIM 'ANTIFRAGILE' [비 오리지널] 르세라핌 '안티프래자일' 지금 온 우주는 르세라핌에 미쳤다     (2:39) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qORaYudQ7Zc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qORaYudQ7Zc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qORaYudQ7Zc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "STUDIO CHOOM [스튜디오 춤]",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-19T14:00:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AzYxBvfOpsH7ByUv5w9QLuvZYOc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pyf8cbqyfPs"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-16T14:58:08Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "LE SSERAFIM (르세라핌) &#39;ANTIFRAGILE&#39; OFFICIAL M/V",
+        "description": "Creative Director : NU KIM Visual Creative : Yujoo Kim, Gabriel Cho, Yoon Cho, Sungwoong Moon A&R : Kyuyoung Kim, Sewon ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pyf8cbqyfPs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pyf8cbqyfPs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pyf8cbqyfPs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-16T14:58:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "m5WB1RXWgeseu68szla5GpqNylY",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCs-QBT4qkj_YiQw1ZntDO3g"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-19T08:33:17Z",
+        "channelId": "UCs-QBT4qkj_YiQw1ZntDO3g",
+        "title": "LE SSERAFIM",
+        "description": "LE SSERAFIM Official Youtube 르세라핌 공식 유튜브.",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/qUdVhvkK7hOoeUd1MiYeOPueyxTXiou53l1ZlARRRqbRwlVp3_wfFqx2kh6bRwOC7wDjBz2Z0A=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/qUdVhvkK7hOoeUd1MiYeOPueyxTXiou53l1ZlARRRqbRwlVp3_wfFqx2kh6bRwOC7wDjBz2Z0A=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/qUdVhvkK7hOoeUd1MiYeOPueyxTXiou53l1ZlARRRqbRwlVp3_wfFqx2kh6bRwOC7wDjBz2Z0A=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "LE SSERAFIM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-19T08:33:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GwhQYzqgIg7PRPE7QfqXbZcZtg4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Fg5yNg_pa_g"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-28T05:28:08Z",
+        "channelId": "UCpBlDSUyOpP1WqWVJxZpGLg",
+        "title": "[MMA2022 | 축하공연] 르세라핌 - THE HYDRA + TRAILER + ANTIFRAGILE | #lesserafim  #르세라핌",
+        "description": "르세라핌의 카즈하 SOLO + FEARLESS가 포함된 FULL Ver. 무대  는 멜론에서      http://kko.to/ngrfk-PmL9 아티스트들의 FULL ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Fg5yNg_pa_g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Fg5yNg_pa_g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Fg5yNg_pa_g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Melon 멜론",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-28T05:28:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "m5rU5Wj7phEVB-L7rBhSc6u14Yw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PmRJVQbBoVs"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-24T11:32:41Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "르세라핌(LE SSERAFIM), 역동적이고 매력적인 무대 ＜INTRO× Carmen - Habanera♬＞ #SBS가요대전 #SBSenter",
+        "description": "2022 SBS 가요대전 르세라핌 INTRO와 Carmen - Habanera 무대를 공개합니다. '2022 SBS 가요대전(2022sbsgayo)' ☞ 12월 24일 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PmRJVQbBoVs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PmRJVQbBoVs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PmRJVQbBoVs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-24T11:32:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lsGntH5iK1DB9mgCXkPX5SPOxgA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Lxus2RPnqTw"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-20T10:41:32Z",
+        "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+        "title": "LE SSERAFIM(르세라핌) - Impurities @인기가요 inkigayo 20221120",
+        "description": "LE SSERAFIM - Impurities #SBSInkigayo_EP1162 르세라핌 - Impurities #LE_SSERAFIM #Impurities SBS Inkigayo(인기가요) is a ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Lxus2RPnqTw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Lxus2RPnqTw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Lxus2RPnqTw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "스브스케이팝 X INKIGAYO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-20T10:41:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_V28XZ5RppewDohvQFl_RQEQ6XM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qK1AV3Qpo7w"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-06T11:31:11Z",
+        "channelId": "UCu976UrWTIh3-3c8WImzVFA",
+        "title": "은채를 르세라핌의 마지막 멤버로 선택할 수밖에 없던 이유[LE SSERAFIM HONG EUNCHAE](ENG, INDO, TH)",
+        "description": "English CC & Indonesian CC & Thai CC available! 너무 귀여운 막내미로 많은 인기를 얻은 르세라핌 홍은채! 든든한 르세라핌 언니 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qK1AV3Qpo7w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qK1AV3Qpo7w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qK1AV3Qpo7w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Doyouram - Everyday K-Culture",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-06T11:31:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MeAb8PRVlE4Pz_BS_vYY_X4TKoc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-XnydjqlWyo"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-26T11:00:00Z",
+        "channelId": "UC9LcN9O8amxNcfu0fwGqwgQ",
+        "title": "(ENG) 텐션 더 높이 가줄게~ᕦ( ᐛ )ᕡ 수련회장 뒤집어놓고 간 핌둥이들🤭 | 돌들의침묵 | LE SSERAFIM (르세라핌) &#39;ANTIFRAGILE&#39;",
+        "description": "텐션 더 높이 가줄게ᕦ( ᐛ )ᕡ ~ 수련회 처음부터 끝까지 폭주하는 핌둥이들 예능감｡^‿^｡ \"본 교관 이런 학생들 처음입니다  \" 교관 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-XnydjqlWyo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-XnydjqlWyo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-XnydjqlWyo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MUPLY 뮤플리",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-26T11:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dTKc_CftRVkX7m1iE3ymq7I-LGs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Aay8hrudG1o"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-29T11:29:08Z",
+        "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+        "title": "LE SSERAFIM(르세라핌) - FEARLESS @인기가요 inkigayo 20220529",
+        "description": "LE SSERAFIM - FEARLESS #SBSInkigayo_EP1139 르세라핌 - FEARLESS #LE_SSERAFIM #FEARLESS SBS Inkigayo(인기 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Aay8hrudG1o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Aay8hrudG1o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Aay8hrudG1o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "스브스케이팝 X INKIGAYO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-29T11:29:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tAtwXFY-WAHT_w4iROsCOSlWlBY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tX-M2-jIpfo"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-16T13:08:08Z",
+        "channelId": "UCeLPm9yH_a_QH8n6445G-Ow",
+        "title": "르세라핌 (Lesserafim) - Intro + Fearless + Antifragile [2022 KBS 가요대축제] | KBS 221216 방송",
+        "description": "르세라핌 (Lesserafim) - Intro + Fearless + Antifragile #2022 #가요대축제 #Y2K #가수 #케이팝 #시상식 #르세라핌 #Fearless ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tX-M2-jIpfo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tX-M2-jIpfo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tX-M2-jIpfo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS Kpop",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-16T13:08:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "y07-vyZcFh_vCjtVGmjwRmpkBdQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZNEuWldWPD4"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-17T09:15:01Z",
+        "channelId": "UCmth4hMyizG-_W9jidBqs_A",
+        "title": "LE SSERAFIM &#39;ANTIFRAGILE&#39; Lyrics (레세라핌 ANTIFRAGILE 가사) (Color Coded Lyrics)",
+        "description": "All Rights Administered by Source Music • Artist: Le Sserafim (르세라핌) • Song ♫: ANTIFRAGILE • Album: ANTIFRAGILE ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZNEuWldWPD4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZNEuWldWPD4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZNEuWldWPD4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Jaeguchi",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-17T09:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ngSO7o1VFTvjTbYi84CT-a6uZcI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ypLPHGkuwck"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-08T20:40:02Z",
+        "channelId": "UCJPsNjhaFeRlJfCI58OCcQQ",
+        "title": "르세라핌 웃긴영상 #1",
+        "description": "르세라핌 #lesserafim #웃긴영상.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ypLPHGkuwck/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ypLPHGkuwck/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ypLPHGkuwck/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "꾸라꾸라",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-08T20:40:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "J3L3AhmxfPH1aIvighqsPMCG-wM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0erUvtxak9M"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-12T10:00:01Z",
+        "channelId": "UCs-QBT4qkj_YiQw1ZntDO3g",
+        "title": "[LE▶️PLAY] 범퍼카장에서 생긴 일 | 핌둥이들의 운전 실력은?!💥🚗",
+        "description": "LE_SSERAFIM #르세라핌 공식 채널 #LE_SSERAFIM #르세라핌 OFFICIAL CHANNEL OFFICIAL INSTAGRAM ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0erUvtxak9M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0erUvtxak9M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0erUvtxak9M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "LE SSERAFIM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-12T10:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_wtIZYP4-0mzPXo4sf6p5P0Hky4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IL6i5DLBscQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-14T12:00:01Z",
+        "channelId": "UCs-QBT4qkj_YiQw1ZntDO3g",
+        "title": "[EPISODE] ‘IWC X ELLE’ PhotoShoot Sketch",
+        "description": "LE_SSERAFIM #르세라핌 공식 채널 #LE_SSERAFIM #르세라핌 OFFICIAL CHANNEL OFFICIAL INSTAGRAM ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IL6i5DLBscQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IL6i5DLBscQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IL6i5DLBscQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "LE SSERAFIM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-14T12:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0j8IBgPSo5yvtqweTRpJmLwZBhI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ccz123Jlflc"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-13T14:58:07Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "LE SSERAFIM (르세라핌) &#39;Impurities&#39; OFFICIAL M/V",
+        "description": "Creative Director : NU KIM Visual Creative : Yujoo Kim, Gabriel Cho, Yoon Cho, Sungwoong Moon A&R : Kyuyoung Kim, Sewon ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ccz123Jlflc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ccz123Jlflc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ccz123Jlflc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-13T14:58:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tf508nJH6VfI9tgGVGdRBMrXvLk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "owtTQSsLpSM"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-17T11:20:39Z",
+        "channelId": "UCTQVIXvcHrR9jYoJ6qaBAow",
+        "title": "[최초공개] LE SSERAFIM(르세라핌) - Impurities (4K) | LE SSERAFIM COMEBACKSHOW | Mnet 221017 방송",
+        "description": "[LE SSERAFIM COMEBACK SHOW : ANTIFRAGILE] LE SSERAFIM - Impurities [르세라핌 컴백쇼 : ANTIFRAGILE] 르세라핌 - 임 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/owtTQSsLpSM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/owtTQSsLpSM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/owtTQSsLpSM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "M2",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-17T11:20:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EpGhX_zf_sCbUVxfMtiVzLiRkZU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YhqF-texZko"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-29T12:00:01Z",
+        "channelId": "UCs-QBT4qkj_YiQw1ZntDO3g",
+        "title": "LE SSERAFIM (르세라핌) 2022 SBS 가요대전 Dress Rehearsal",
+        "description": "LE_SSERAFIM #르세라핌 공식 채널 #LE_SSERAFIM #르세라핌 OFFICIAL CHANNEL OFFICIAL INSTAGRAM ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YhqF-texZko/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YhqF-texZko/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YhqF-texZko/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "LE SSERAFIM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-29T12:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FED8unZN2ZjUnnwX7Ji51SZkrW8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CA8Oy8VmbW0"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-10T09:10:00Z",
+        "channelId": "UCdgfjsA0QzdqdHtxF9-9R3w",
+        "title": "카메라에 딱 걸린 장원영 VS 아이브 기싸움 장면ㄷㄷ 현재 난리난 아이브 불화설의 소름돋는 진실",
+        "description": "안녕하세요 이슈피드입니다 항상 재밌고 신선한 뉴스로 찾아뵙겠습니다. 구독하기 ☞ https://goo.gl/wWcGCX 영상이 재미있으셨다면 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CA8Oy8VmbW0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CA8Oy8VmbW0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CA8Oy8VmbW0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "이슈피드",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-10T09:10:00Z"
+      }
+    }
+  ]
+}
