@@ -10,7 +10,7 @@ export default function Video({ video }) {
   const desc = snippet.description;
   return (
     <Link
-      to={`/${typeof id === "object" ? id.videoId : id}`}
+      to={`/videos/watch/${id}`}
       state={{
         title,
         channelTitle,

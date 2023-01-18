@@ -10,7 +10,7 @@ export default function RelatedVideo({ video }) {
   const desc = snippet.publishedAt;
   return (
     <Link
-      to={`/${typeof id === "object" ? id.videoId : id}`}
+      to={`/videos/watch/${id}`}
       state={{
         title,
         channelTitle,

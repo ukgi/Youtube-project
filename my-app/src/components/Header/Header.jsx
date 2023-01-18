@@ -1,45 +1,34 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import SearchIcon from "@mui/icons-material/Search";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 
-export default function Header({ handleSetVideos }) {
+export default function Header() {
   const [keyword, setKeyword] = useState("");
   const navigate = useNavigate();
+  const { search } = useParams();
 
-  async function searchForKeywordRequest(keyword) {
-    const response = await fetch(
-      `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${keyword}&key=${process.env.REACT_APP_GOOGLE_YOUTUBE_API_KEY}`,
-      {
-        method: "GET",
-      }
-    );
-    const data = await response.json();
-    handleSetVideos(data.items);
-    navigate(`videos/${keyword}`);
-  }
+  useEffect(() => {
+    setKeyword(search || "");
+  }, [search]);
 
   const handleKeywordSearch = (e) => {
     e.preventDefault();
-    searchForKeywordRequest(keyword);
-  };
-
-  const goToMainPage = () => {
-    navigate("/");
+    navigate(`/videos/${keyword}`);
   };
 
   return (
-    <div className=' md:flex md:justify-center md:items-center m-auto pb-4 pt-6 bg-inherit bg-slate-800 w-full'>
-      <button className='md:flex md:items-center hidden' onClick={goToMainPage}>
-        <YouTubeIcon style={{ color: "red", fontSize: "48px" }} />
-        <h1 className='text-3xl text-zinc-100'>Youtube</h1>
-      </button>
+    <header className='border-b border-zinc-600 md:flex md:justify-center md:items-center mb-4 pb-4 pt-6 bg-inherit bg-slate-800 w-full'>
+      <Link to='/' className='md:flex md:items-center hidden'>
+        <YouTubeIcon className='text-brand' style={{ fontSize: "48px" }} />
+        <h1 className='text-3xl text-zinc-100 font-bold'>Youtube</h1>
+      </Link>
       <form
         className='flex justify-center md:ml-24'
         onSubmit={handleKeywordSearch}
       >
         <input
-          className=' block w-96 px-1.5 py-1.5 grow-1 outline-none bg-slate-900 text-white'
+          className='block w-96 px-1.5 py-1.5 grow-1 outline-none bg-slate-900 text-white'
           type='text'
           placeholder='Search...'
           value={keyword}
@@ -49,6 +38,6 @@ export default function Header({ handleSetVideos }) {
           <SearchIcon style={{ color: "white", fontSize: "36px" }} />
         </button>
       </form>
-    </div>
+    </header>
   );
 }

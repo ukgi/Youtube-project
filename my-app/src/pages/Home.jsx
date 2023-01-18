@@ -1,15 +1,19 @@
-import React, { useState } from "react";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import React from "react";
 import { Outlet } from "react-router-dom";
 import Header from "../components/Header/Header";
+import { YoutubeApiProvider } from "../context/YoutubeApiContext";
 
 export default function Home() {
-  const [videos, setVideos] = useState([]);
-  const handleSetVideos = (items) => setVideos(items);
-
+  const queryClient = new QueryClient();
   return (
     <>
-      <Header handleSetVideos={handleSetVideos} />
-      <Outlet context={{ videos, handleSetVideos }} />
+      <Header />
+      <YoutubeApiProvider>
+        <QueryClientProvider client={queryClient}>
+          <Outlet />
+        </QueryClientProvider>
+      </YoutubeApiProvider>
     </>
   );
 }

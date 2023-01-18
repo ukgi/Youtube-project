@@ -29,9 +29,7 @@ export default function VideoDetail({ videoInfo, videoId, channelImg }) {
               />
               <p className='mt-3 font-medium text-slate-50'>{channelTitle}</p>
             </div>
-            <p className='mt-3 text-slate-50' style={{ overflow: "hidden" }}>
-              {desc}
-            </p>
+            <p className='mt-3 text-slate-50 w-96 truncate'>{desc}</p>
           </div>
         </div>
         <div className='basis-1/2 bg-slate-300'>

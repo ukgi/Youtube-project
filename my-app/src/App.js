@@ -4,7 +4,6 @@ import NotFound from "./pages/NotFound";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import DetailPage from "./pages/DetailPage";
 import Home from "./pages/Home";
-import Searched from "./pages/Searched";
 
 const router = createBrowserRouter([
   {
@@ -17,16 +16,21 @@ const router = createBrowserRouter([
         element: <Videos />,
       },
       {
-        path: "/videos/:search",
-        element: <Searched />,
+        path: "videos",
+        element: <Videos />,
       },
       {
-        path: "/:videoId",
+        path: "videos/:search",
+        element: <Videos />,
+      },
+      {
+        path: "videos/watch/:videoId",
         element: <DetailPage />,
       },
     ],
   },
 ]);
+
 function App() {
   return <RouterProvider router={router} />;
 }

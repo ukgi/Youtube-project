@@ -1,31 +1,48 @@
-import React, { useEffect, useState } from "react";
+import { useQuery } from "@tanstack/react-query";
+import React from "react";
 import { useLocation, useParams } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 import VideoDetail from "../components/VideoDetail/VideoDetail";
+import Loading from "./Loading";
+import Error from "./Error";
+import { useYoutubeApi } from "../context/YoutubeApiContext";
 
 export default function DetailPage() {
-  const [videoDetail, setVideoDetail] = useState([]);
   const { videoId } = useParams();
   const location = useLocation();
+  const { youtube } = useYoutubeApi();
 
-  useEffect(() => {
-    async function videoDetailRequest() {
-      const response = await fetch(
-        `https://youtube.googleapis.com/youtube/v3/channels?part=snippet&id=${location.state.channelId}&key=${process.env.REACT_APP_GOOGLE_YOUTUBE_API_KEY}`,
-        {
-          method: "GET",
-        }
-      );
-      const data = await response.json();
-      setVideoDetail(data.items);
-      console.log("비디오 상세정보", data.items);
+  const {
+    isLoading,
+    error,
+    data: videoDetail,
+  } = useQuery(
+    ["detail", videoId],
+    () => {
+      return youtube.handleDetailInfo(location.state.channelId);
+    },
+    {
+      staleTime: 1000 * 60 * 5,
     }
-    videoDetailRequest();
-    console.log("비디오 ID", videoId);
-  }, [videoId]);
+  );
+
+  // useEffect(() => {
+  //   async function videoDetailRequest() {
+  //     const response = await fetch("/data/Detail.json", {
+  //       method: "GET",
+  //     });
+  //     const data = await response.json();
+  //     setVideoDetail(data.items);
+  //     console.log("비디오 상세정보", data.items);
+  //   }
+  //   videoDetailRequest();
+  //   console.log("비디오 ID", videoId);
+  // }, [videoId]);
 
   return (
-    <div>
+    <>
+      {isLoading && <Loading />}
+      {error && <Error />}
       {videoDetail &&
         videoDetail.map((video) => (
           <VideoDetail
@@ -35,6 +52,6 @@ export default function DetailPage() {
             channelImg={video.snippet.thumbnails.default.url}
           />
         ))}
-    </div>
+    </>
   );
 }

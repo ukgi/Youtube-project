@@ -1,29 +1,31 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Video from "../Video/Video";
 import { v4 as uuidv4 } from "uuid";
-import { useOutletContext, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import { useQuery } from "@tanstack/react-query";
+import Loading from "../../pages/Loading";
+import Error from "../../pages/Error";
+import { useYoutubeApi } from "../../context/YoutubeApiContext";
 
 export default function Videos() {
-  const { videos, handleSetVideos } = useOutletContext();
   const { search } = useParams();
-  useEffect(() => {
-    async function hotTrendRequest() {
-      const response = await fetch(
-        `${
-          search
-            ? `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${search}&key=${process.env.REACT_APP_GOOGLE_YOUTUBE_API_KEY}`
-            : "/data/hotTrend.json"
-        }`,
-        {
-          method: "GET",
-        }
-      );
-      const data = await response.json();
-      handleSetVideos(data.items);
-      console.log("데이터를 서버로부터 받아옵니다 ✨", data.items);
+  const { youtube } = useYoutubeApi();
+  const {
+    isLoading,
+    error,
+    data: videos,
+  } = useQuery(
+    ["videos", search],
+    () => {
+      return youtube.handleSearch(search);
+    },
+    {
+      staleTime: 1000 * 60 * 5,
     }
-    hotTrendRequest();
-  }, []);
+  );
+
+  if (isLoading) return <Loading />;
+  if (error) return <Error />;
 
   return (
     <div className='bg-slate-800'>
