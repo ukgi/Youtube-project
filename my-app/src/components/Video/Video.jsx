@@ -4,7 +4,7 @@ import { formatAgo } from "../../util/date";
 
 export default function Video({ video, type }) {
   const { id, snippet } = video;
-  const imgUrl = snippet.thumbnails.default.url;
+  const imgUrl = snippet.thumbnails.medium.url;
   const title = snippet.title;
   const channelTitle = snippet.channelTitle;
   const publishedAt = snippet.publishedAt;

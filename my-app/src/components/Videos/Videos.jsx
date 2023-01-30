@@ -28,7 +28,7 @@ export default function Videos() {
   if (error) return <Error />;
 
   return (
-    <ul className='bg-slate-800 px-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-2 gap-y-4'>
+    <ul className='bg-slate-800 pl-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-2 gap-y-4'>
       {videos && videos.map((video) => <Video key={uuidv4()} video={video} />)}
     </ul>
   );
