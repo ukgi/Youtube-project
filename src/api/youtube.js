@@ -59,7 +59,7 @@ export default class Youtube {
         },
       })
       .then((res) => {
-        console.log("연관 동영상 데이터를 받아옵니다 🌟", res.data.items);
+        // console.log("연관 동영상 데이터를 받아옵니다 🌟", res.data.items);
         return res.data.items;
       })
       .then((items) => items.map((item) => ({ ...item, id: item.id.videoId })))
@@ -75,7 +75,7 @@ export default class Youtube {
         },
       })
       .then((res) => {
-        console.log("상세 데이터를 가져옵니다 ✨", res.data.items);
+        // console.log("상세 데이터를 가져옵니다 ✨", res.data.items);
         return res.data.items;
       })
       .catch((err) => console.log(err.message));
