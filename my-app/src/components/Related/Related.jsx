@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from "uuid";
 import { useYoutubeApi } from "../../context/YoutubeApiContext";
 import Error from "../../pages/Error";
 import Loading from "../../pages/Loading";
-import RelatedVideo from "./RelatedVideo";
+import Video from "../Video/Video";
 
 export default function Related() {
   // ✅react query를 이용하면 이렇게 client 에서 따로 상태를 관리할 필요가 없다 !
@@ -29,7 +29,7 @@ export default function Related() {
   const {
     isLoading,
     error,
-    data: relatedVideos,
+    data: videos,
   } = useQuery(
     ["related", videoId],
     () => {
@@ -44,9 +44,9 @@ export default function Related() {
     <ul className='w-full flex flex-col items-center bg-slate-800'>
       {isLoading && <Loading />}
       {error && <Error />}
-      {relatedVideos &&
-        relatedVideos.map((video) => (
-          <RelatedVideo key={uuidv4()} video={video} />
+      {videos &&
+        videos.map((video) => (
+          <Video key={uuidv4()} video={video} type='list' />
         ))}
     </ul>
   );

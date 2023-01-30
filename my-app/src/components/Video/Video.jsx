@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-export default function Video({ video }) {
+import { formatAgo } from "../../util/date";
+
+export default function Video({ video, type }) {
   const { id, snippet } = video;
   const imgUrl = snippet.thumbnails.default.url;
   const title = snippet.title;
@@ -8,6 +10,7 @@ export default function Video({ video }) {
   const publishedAt = snippet.publishedAt;
   const channelId = snippet.channelId;
   const desc = snippet.description;
+  const isList = type === "list";
   return (
     <Link
       to={`/videos/watch/${id}`}
@@ -17,18 +20,22 @@ export default function Video({ video }) {
         channelId,
         desc,
       }}
-      className='w-96 md:w-44 p-0.5 flex flex-col'
+      className='w-full'
     >
-      <li key={id}>
-        <img className='w-96' src={`${imgUrl}`} alt='thumbnails' />
-        <div className='flex flex-col'>
-          <span className='font-bold text-gray-300 truncate'>{title}</span>
-          <span className='text-gray-600 font-semibold truncate'>
+      <li key={id} className={isList ? "flex justify-start gap-1 m-2" : ""}>
+        <img
+          className={isList ? "w-{80} mr-2" : "w-full"}
+          src={`${imgUrl}`}
+          alt='thumbnails'
+        />
+        <div>
+          <p className='font-bold text-gray-300 line-clamp-2'>{title}</p>
+          <p className='text-gray-600 font-semibold line-clamp-1'>
             {channelTitle}
-          </span>
-          <span className='text-gray-600 font-semibold truncate'>
-            {publishedAt}
-          </span>
+          </p>
+          <p className='text-gray-600 font-semibold line-clamp-2'>
+            {formatAgo(publishedAt, "ko")}
+          </p>
         </div>
       </li>
     </Link>

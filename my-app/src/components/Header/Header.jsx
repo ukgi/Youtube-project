@@ -18,7 +18,7 @@ export default function Header() {
   };
 
   return (
-    <header className='border-b border-zinc-600 md:flex md:justify-center md:items-center mb-4 pb-4 pt-6 bg-inherit bg-slate-800 w-full'>
+    <header className='border-b border-zinc-600 md:flex md:justify-center md:items-center mb-4 pb-4 pt-6 bg-inherit bg-slate-800 w-screen'>
       <Link to='/' className='md:flex md:items-center hidden'>
         <YouTubeIcon className='text-brand' style={{ fontSize: "48px" }} />
         <h1 className='text-3xl text-zinc-100 font-bold'>Youtube</h1>
